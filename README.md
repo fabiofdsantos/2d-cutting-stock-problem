@@ -68,6 +68,8 @@ This section presents the computational results obtained during the experiences 
 ### Problem 1
 *Stock material length: 6*
 
+![Problem 1](https://github.com/ffsantos92/2d-cutting-stock-problem/blob/master/problems/problem1-pieces.png)
+
 |  Best individual |  243 (fitness)  |
 |:----------------:|:---------------:|
 |       Seed       |        1        |
@@ -81,6 +83,8 @@ This section presents the computational results obtained during the experiences 
 
 ### Problem 2
 *Stock material length: 5*
+
+![Problem 2](https://github.com/ffsantos92/2d-cutting-stock-problem/blob/master/problems/problem2-pieces.png)
 
 |  Best individual |  111 (fitness)  |
 |:----------------:|:---------------:|
@@ -96,6 +100,8 @@ This section presents the computational results obtained during the experiences 
 ### Problem 3
 *Stock material length: 5*
 
+![Problem 3](https://github.com/ffsantos92/2d-cutting-stock-problem/blob/master/problems/problem3-pieces.png)
+
 |  Best individual |  174 (fitness)  |
 |:----------------:|:---------------:|
 |       Seed       |        1        |
@@ -109,6 +115,8 @@ This section presents the computational results obtained during the experiences 
 
 ### Problem 4
 *Stock material length: 6*
+
+![Problem 4](https://github.com/ffsantos92/2d-cutting-stock-problem/blob/master/problems/problem4-pieces.png)
 
 |  Best individual |  758 (fitness)  |
 |:----------------:|:---------------:|
