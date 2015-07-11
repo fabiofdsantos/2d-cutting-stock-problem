@@ -1,5 +1,5 @@
 # A Genetic Approach to the 2D Cutting Stock Problem
-The cutting stock problem is the problem of cutting certain pieces of stock material into pieces of specified sizes while minimizing the material wasted [1](#1).
+The cutting stock problem is the problem of cutting certain pieces of stock material into pieces of specified sizes while minimizing the material wasted [[1]](#1-cutting-stock-problem-2015-may-12-in-wikipedia-the-free-encyclopedia-retrieved-1029-may-25-2015-from-httpenwikipediaorgwindexphptitlecutting_stock_problemoldid662064671).
 
 OX (order crossover) and CX (cycle crossover) will be used as genetic operators to solve this kind of problem, comparing their influence on results and make other comparative experiences by mutating genes or changing the values of the population size as the number of generations.
 
@@ -46,10 +46,10 @@ There are two types of possible mutations:
 The probability of the occurrence of a mutation must be set manually and it will be compared with a random double for each gene. If the customized value is less than the random one, another random double will be generated. At this point, if the second random double is bigger than the one set manually, the mutation by changing the piece rotation value occurs otherwise two genes will be swapped.
 
 ### OX - Order Crossover
-In this method, a portion of one parent is mapped to a portion of the other parent. From the replaced portion on, the rest is filled up by the remaining genes, where already present genes are omitted and the order is preserved [2](#2) [3](#3).
+In this method, a portion of one parent is mapped to a portion of the other parent. From the replaced portion on, the rest is filled up by the remaining genes, where already present genes are omitted and the order is preserved [[2]](#2-crossover-genetic-algorithm-2014-june-6-in-wikipedia-the-free-encyclopedia-retrieved-1130-may-25-2015-from-httpenwikipediaorgwindexphptitlecrossover_genetic_algorithmoldid611874987) [3](#3-order1-crossover-operator-in-rubicite-interactive-retrieved-1642-may-25-2015-from-httpwwwrubicitecomtutorialsgeneticalgorithmscrossoveroperatorsorder1crossoveroperatoraspx).
 
 ### CX - Cycle Crossover
-Beginning at any gene μ in parent 1, the μ-th gene in parent 2 becomes replaced by it. The same is repeated for the displaced gene until the gene which is equal to the first inserted gene becomes replaced (cycle) [2](#2) [4](#4).
+Beginning at any gene μ in parent 1, the μ-th gene in parent 2 becomes replaced by it. The same is repeated for the displaced gene until the gene which is equal to the first inserted gene becomes replaced (cycle) [2](#2-crossover-genetic-algorithm-2014-june-6-in-wikipedia-the-free-encyclopedia-retrieved-1130-may-25-2015-from-httpenwikipediaorgwindexphptitlecrossover_genetic_algorithmoldid611874987) [[4]](#4-cycle-crossover---cx---genetic-algorithms-2014-november-16-in-youtube-retrieved-1428-may-25-2015-from-httpwwwyoutubecomwatchv85pia2tysus).
 
 
 ## Fitness Function
@@ -132,7 +132,7 @@ However the problems 2 and 3 are more complex so we can see relevant differences
 
 Additionally we built another problem to evaluate our genetic approach more efficiently. In this last case we noted more differences in selective and crossover operators which proves the first conclusion described on this section.
 
-For future work, maybe using PMX (partially matched crossover) could be more efficiently than CX, by giving better results [5](#5).
+For future work, maybe using PMX (partially matched crossover) could be more efficiently than CX, by giving better results [[5]](https://github.com/ffsantos92/2d-cutting-stock-problem#5-a-comparative-analysis-of-pmx-cx-and-ox-crossover-operators-for-solving-travelling-salesman-problem-in-international-journal-of-latest-research-in-science-and-technology-vol1-issue-2-page-no-98-101-july--august-2012).
 
 
 ## References
