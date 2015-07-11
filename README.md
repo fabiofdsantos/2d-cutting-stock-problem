@@ -27,7 +27,7 @@ The initial population is set after loading the problem data from a text file wh
 Each set of genes will be generated randomly and it contains all pieces of the problem with valid rotations.
 
 ### Individuals
-An individual is represented by a multidimensional array of pieces and their rotations – 0 (original) to 3 (270º). The table 1 shows an example of an individual with two genes.
+An individual is represented by a multidimensional array of pieces and their rotations – 0 (original) to 3 (270º). The table below shows an example of an individual with two genes.
 
 | [Index] | [0]: Number [1]: Rotation | Value |
 |:-------:|:-------------------------:|:-----:|
@@ -35,7 +35,6 @@ An individual is represented by a multidimensional array of pieces and their rot
 |   [0]   |            [1]            |   0   |
 |   [1]   |            [0]            |   2   |
 |   [1]   |            [1]            |   3   |
-[ Table 1. Individual's genes ]
 
 ## Genetic Operators
 ### Mutation
