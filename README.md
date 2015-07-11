@@ -46,10 +46,10 @@ There are two types of possible mutations:
 The probability of the occurrence of a mutation must be set manually and it will be compared with a random double for each gene. If the customized value is less than the random one, another random double will be generated. At this point, if the second random double is bigger than the one set manually, the mutation by changing the piece rotation value occurs otherwise two genes will be swapped.
 
 ### OX - Order Crossover
-In this method, a portion of one parent is mapped to a portion of the other parent. From the replaced portion on, the rest is filled up by the remaining genes, where already present genes are omitted and the order is preserved [[2]](#2-crossover-genetic-algorithm-2014-june-6-in-wikipedia-the-free-encyclopedia-retrieved-1130-may-25-2015-from-httpenwikipediaorgwindexphptitlecrossover_genetic_algorithmoldid611874987) [3](#3-order1-crossover-operator-in-rubicite-interactive-retrieved-1642-may-25-2015-from-httpwwwrubicitecomtutorialsgeneticalgorithmscrossoveroperatorsorder1crossoveroperatoraspx).
+In this method, a portion of one parent is mapped to a portion of the other parent. From the replaced portion on, the rest is filled up by the remaining genes, where already present genes are omitted and the order is preserved [[2]](#2-crossover-genetic-algorithm-2014-june-6-in-wikipedia-the-free-encyclopedia-retrieved-1130-may-25-2015-from-httpenwikipediaorgwindexphptitlecrossover_genetic_algorithmoldid611874987) [[3]](#3-order1-crossover-operator-in-rubicite-interactive-retrieved-1642-may-25-2015-from-httpwwwrubicitecomtutorialsgeneticalgorithmscrossoveroperatorsorder1crossoveroperatoraspx).
 
 ### CX - Cycle Crossover
-Beginning at any gene μ in parent 1, the μ-th gene in parent 2 becomes replaced by it. The same is repeated for the displaced gene until the gene which is equal to the first inserted gene becomes replaced (cycle) [2](#2-crossover-genetic-algorithm-2014-june-6-in-wikipedia-the-free-encyclopedia-retrieved-1130-may-25-2015-from-httpenwikipediaorgwindexphptitlecrossover_genetic_algorithmoldid611874987) [[4]](#4-cycle-crossover---cx---genetic-algorithms-2014-november-16-in-youtube-retrieved-1428-may-25-2015-from-httpwwwyoutubecomwatchv85pia2tysus).
+Beginning at any gene μ in parent 1, the μ-th gene in parent 2 becomes replaced by it. The same is repeated for the displaced gene until the gene which is equal to the first inserted gene becomes replaced (cycle) [[2]](#2-crossover-genetic-algorithm-2014-june-6-in-wikipedia-the-free-encyclopedia-retrieved-1130-may-25-2015-from-httpenwikipediaorgwindexphptitlecrossover_genetic_algorithmoldid611874987) [[4]](#4-cycle-crossover---cx---genetic-algorithms-2014-november-16-in-youtube-retrieved-1428-may-25-2015-from-httpwwwyoutubecomwatchv85pia2tysus).
 
 
 ## Fitness Function
@@ -140,7 +140,7 @@ For future work, maybe using PMX (partially matched crossover) could be more eff
 ###### [2] Crossover (genetic algorithm). (2014, June 6). In *Wikipedia, The Free Encyclopedia*. Retrieved 11:30, May 25, 2015, from http://en.wikipedia.org/w/index.php?title=Crossover_(genetic_algorithm)&oldid=611874987
 ###### [3] Order1 Crossover Operator. In *Rubicite Interactive*. Retrieved 16:42, May 25, 2015, from http://www.rubicite.com/Tutorials/GeneticAlgorithms/CrossoverOperators/Order1CrossoverOperator.aspx
 ###### [4] Cycle Crossover - CX - Genetic Algorithms. (2014, November 16). In *YouTube*. Retrieved 14:28, May 25, 2015, from http://www.youtube.com/watch?v=85pIA2TYsUs
-###### [5] A Comparative Analysis of PMX, CX and OX Crossover operators for solving Travelling Salesman Problem. In *International Journal of Latest Research in Science and Technology*. Vol.1, Issue 2: Page No. 98-101, July- August (2012).
+###### [5] A Comparative Analysis of PMX, CX and OX Crossover operators for solving Travelling Salesman Problem. In *International Journal of Latest Research in Science and Technology*. Vol.1, Issue 2: Page No. 98-101, July-August (2012).
 
 ---
 
