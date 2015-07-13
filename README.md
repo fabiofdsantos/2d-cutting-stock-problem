@@ -68,7 +68,7 @@ This section presents the computational results obtained during the experiences 
 ### Problem 1
 *Stock material length: 6*
 
-![Problem 1](https://github.com/ffsantos92/2d-cutting-stock-problem/blob/master/problems/problem1-pieces.png)
+![Problem 1](problems/problem1-pieces.png)
 
 |  Best individual |  243 (fitness)  |
 |:----------------:|:---------------:|
@@ -84,7 +84,7 @@ This section presents the computational results obtained during the experiences 
 ### Problem 2
 *Stock material length: 5*
 
-![Problem 2](https://github.com/ffsantos92/2d-cutting-stock-problem/blob/master/problems/problem2-pieces.png)
+![Problem 2](problems/problem2-pieces.png)
 
 |  Best individual |  111 (fitness)  |
 |:----------------:|:---------------:|
@@ -100,7 +100,7 @@ This section presents the computational results obtained during the experiences 
 ### Problem 3
 *Stock material length: 5*
 
-![Problem 3](https://github.com/ffsantos92/2d-cutting-stock-problem/blob/master/problems/problem3-pieces.png)
+![Problem 3](problems/problem3-pieces.png)
 
 |  Best individual |  174 (fitness)  |
 |:----------------:|:---------------:|
@@ -116,7 +116,7 @@ This section presents the computational results obtained during the experiences 
 ### Problem 4
 *Stock material length: 6*
 
-![Problem 4](https://github.com/ffsantos92/2d-cutting-stock-problem/blob/master/problems/problem4-pieces.png)
+![Problem 4](problems/problem4-pieces.png)
 
 |  Best individual |  758 (fitness)  |
 |:----------------:|:---------------:|
@@ -133,11 +133,11 @@ This section presents the computational results obtained during the experiences 
 ## Conclusions
 According to the computational global results, we can conclude in terms of crossover techniques that the cycle crossover achieves better results than the order crossover operator. In terms of selection we realize that tournament is a better selective method than the roulette wheel.
 
-The problem 1 have a simple set of pieces thus it is very easy to reach the best individual on the first group of generations.
+The problem [1](#problem-1) have a simple set of pieces thus it is very easy to reach the best individual on the first group of generations.
 
-However the problems 2 and 3 are more complex so we can see relevant differences between the two selective methods and also between the two crossover operators.
+However the problems [2](#problem-2) and [3](#problem-3) are more complex so we can see relevant differences between the two selective methods and also between the two crossover operators.
 
-Additionally we built another problem to evaluate our genetic approach more efficiently. In this last case we noted more differences in selective and crossover operators which proves the first conclusion described on this section.
+Additionally we built [another](#problem-4) problem to evaluate our genetic approach more efficiently. In this last case we noted more differences in selective and crossover operators which proves the first conclusion described on this section.
 
 For future work, maybe using PMX (partially matched crossover) could be more efficiently than CX, by giving better results [[5]](https://github.com/ffsantos92/2d-cutting-stock-problem#5-a-comparative-analysis-of-pmx-cx-and-ox-crossover-operators-for-solving-travelling-salesman-problem-in-international-journal-of-latest-research-in-science-and-technology-vol1-issue-2-page-no-98-101-july--august-2012).
 
