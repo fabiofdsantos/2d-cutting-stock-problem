@@ -1,0 +1,26 @@
+# NetBeans specific #
+nbproject/private/
+build/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Class Files #
+*.class
+
+# Package Files #
+*.war
+*.ear
+/dist/
+
+# OS
+.DS_Store
+
+.settings/
+.classpath
+.project
+*.iml
+*.iws
+*.ipr
+.idea/
