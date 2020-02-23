@@ -71,7 +71,7 @@ This section presents the computational results obtained during the experiences 
 ### Problem 1
 *Stock material length: 6*
 
-![Problem 1](problems/problem1-pieces.png)
+![Problem 1](datasets/problem1-pieces.png)
 
 |  Best individual |  243 (fitness)  |
 |:----------------:|:---------------:|
@@ -87,7 +87,7 @@ This section presents the computational results obtained during the experiences 
 ### Problem 2
 *Stock material length: 5*
 
-![Problem 2](problems/problem2-pieces.png)
+![Problem 2](datasets/problem2-pieces.png)
 
 |  Best individual |  111 (fitness)  |
 |:----------------:|:---------------:|
@@ -103,7 +103,7 @@ This section presents the computational results obtained during the experiences 
 ### Problem 3
 *Stock material length: 5*
 
-![Problem 3](problems/problem3-pieces.png)
+![Problem 3](datasets/problem3-pieces.png)
 
 |  Best individual |  174 (fitness)  |
 |:----------------:|:---------------:|
@@ -119,7 +119,7 @@ This section presents the computational results obtained during the experiences 
 ### Problem 4
 *Stock material length: 6*
 
-![Problem 4](problems/problem4-pieces.png)
+![Problem 4](datasets/problem4-pieces.png)
 
 |  Best individual |  758 (fitness)  |
 |:----------------:|:---------------:|
