@@ -1,0 +1,58 @@
+# --------------------------------------------------------------------------
+# This file is part of "A Genetic Approach to the 2D Cutting Stock Problem".
+#
+# (c) Fábio Santos <ffsantos92@gmail.com>
+# (c) André Tiago <andretiago244@gmail.com>
+#
+# For the full copyright and license information, please view the LICENSE
+# file that was distributed with this txt.
+# --------------------------------------------------------------------------
+#
+# Problem2
+#
+# Total of pieces
+10
+# Stock material length
+5
+# P1
+4 1
+1
+1
+1
+1
+# P2
+2 3
+1 1 1
+0 1 0
+# P3
+2 2
+1 1
+1 1
+# P4
+1 4
+1 1 1 1
+# P5
+3 2
+0 1
+0 1
+1 1
+# P6
+2 3
+1 1 1
+1 0 0
+# P7
+2 3
+0 1 0
+1 1 1
+# P8
+2 2
+1 1
+1 1
+# P9
+3 3
+0 1 0
+1 1 1
+0 1 0
+# P10
+1 4
+1 1 1 1
