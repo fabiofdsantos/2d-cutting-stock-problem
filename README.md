@@ -1,4 +1,7 @@
 # A Genetic Approach to the 2D Cutting Stock Problem
+
+![Screenshot](screenshot.png)
+
 The cutting stock problem is the problem of cutting certain pieces of stock material into pieces of specified sizes while minimizing the material wasted [[1]](#1-cutting-stock-problem-2015-may-12-in-wikipedia-the-free-encyclopedia-retrieved-1029-may-25-2015-from-httpenwikipediaorgwindexphptitlecutting_stock_problemoldid662064671).
 
 OX (order crossover) and CX (cycle crossover) will be used as genetic operators to solve this kind of problem, comparing their influence on results and make other comparative experiences by mutating genes or changing the values of the population size as the number of generations.
