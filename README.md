@@ -1,4 +1,5 @@
 # A Genetic Approach to the 2D Cutting Stock Problem
+> Academic project (2014/2015) | BSc in Computer Engineering | [Polytechnic Institute of Leiria](https://en.wikipedia.org/wiki/Polytechnic_Institute_of_Leiria)
 
 ![Screenshot](screenshot.png)
 
@@ -155,4 +156,4 @@ For future work, maybe using PMX (partially matched crossover) could be more eff
 ---
 
 ## License
-Copyright (c) 2015 [Fábio Santos](http://www.fabiosantos.me) and [André Tiago](https://pt.linkedin.com/pub/andr%C3%A9-tiago/71/539/a44/en). See the LICENSE file for license rights and limitations (MIT).
+See the LICENSE file for license rights and limitations (MIT).
