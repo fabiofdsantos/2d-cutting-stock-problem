@@ -1,5 +1,4 @@
 # A Genetic Approach to the 2D Cutting Stock Problem
-> Academic project (2014/2015) | BSc in Computer Engineering | [Polytechnic Institute of Leiria](https://en.wikipedia.org/wiki/Polytechnic_Institute_of_Leiria)
 
 ![Screenshot](screenshot.png)
 
