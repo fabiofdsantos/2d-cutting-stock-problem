@@ -134,15 +134,25 @@ This section presents the computational results obtained during the experiences 
 
 
 ## Conclusions
-According to the computational global results, we can conclude in terms of crossover techniques that the cycle crossover achieves better results than the order crossover operator. In terms of selection we realize that tournament is a better selective method than the roulette wheel.
 
-The problem [1](#problem-1) have a simple set of pieces thus it is very easy to reach the best individual on the first group of generations.
+**Crossover techniques**
+ - Computational global results demonstrate that cycle crossover provides better results than the order crossover operator.
+ 
+**Selection techniques**
+ - Tournament is a better selective method that the roulette wheel.
+ 
+**Problem [1](#problem-1)**
+ - A simple set of pieces thus it is very easy to reach the best individual on the first group of generations.
 
-However the problems [2](#problem-2) and [3](#problem-3) are more complex so we can see relevant differences between the two selective methods and also between the two crossover operators.
+**Problems [2](#problem-2) and [3](#problem-3)**
+ - More complex so we can see relevant differences between the two selective methods and also between the two crossover operators.
 
-Additionally we built [another](#problem-4) problem to evaluate our genetic approach more efficiently. In this last case we noted more differences in selective and crossover operators which proves the first conclusion described on this section.
+**Problem [4](#problem-4)**
+ - Built to evaluate our genetic approach more efficiently.
+ - We noted more differences in selective and crossover operators which proves the first conclusion described on this section.
 
-For future work, maybe using PMX (partially matched crossover) could be more efficiently than CX, by giving better results [[5]](https://github.com/ffsantos92/2d-cutting-stock-problem#5-a-comparative-analysis-of-pmx-cx-and-ox-crossover-operators-for-solving-travelling-salesman-problem-in-international-journal-of-latest-research-in-science-and-technology-vol1-issue-2-page-no-98-101-july--august-2012).
+**Future work**
+ - Using PMX (partially matched crossover) could be more efficiently than CX, by giving better results [[5]](https://github.com/ffsantos92/2d-cutting-stock-problem#5-a-comparative-analysis-of-pmx-cx-and-ox-crossover-operators-for-solving-travelling-salesman-problem-in-international-journal-of-latest-research-in-science-and-technology-vol1-issue-2-page-no-98-101-july--august-2012).
 
 
 ## References
